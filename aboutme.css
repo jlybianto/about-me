@@ -1,0 +1,95 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+}
+
+/*Common Styles*/
+body {
+	background-color: #303030;
+	color: #F8F8F8;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+	font-size: 2.0em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: 0.5em 0.5em;
+}
+
+p {
+	padding: 0.5em 1.0em;
+}
+
+ul {
+	padding: 0.0em 1.0em;
+}
+
+/*Header Styles*/
+.masthead {
+	padding: 6.0em 0;
+	background-image: url('https://images.unsplash.com/37/QAdTsSj8TOOWzlyLn3Rg_14248396556_aefcd9a926_o.jpg?q=80&fm=jpg&s=d6622509400aadb5b019282a606ece43');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: solid 1.0em #00003D;
+}
+
+.masthead-intro {
+	margin-bottom: 0.1em;
+	text-align: center;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-size: 2.0em;
+}
+
+.masthead-heading {
+	margin-top: -0.2em;
+	text-align: center;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 6.0em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+}
+
+/*Content Styles*/
+.introduction-section,
+.location-section,
+.detail-section {
+	max-width: 38.0em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.0em;
+	margin-bottom: 2.0em;
+}
+
+.quote {
+	font-style: italic;
+}
+
+/*Footer Styles*/
+.content-footer {
+	text-align: center;
+	background-color: #00003D;
+	padding: 1.0em;
+}
+
+.social > li {
+	display: inline-block;
+}
